@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ameya Mhatre</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-- 🔭 I’m currently working on [A dupe of the manipal SlCM website](https://github.com/AmeyaMprojects/slcm-dupe)
+- 🔭 I’m currently working on [A dupe of the manipal SlCM website](https://slcm-dupe.vercel.app/)
 
 - 🌱 I’m currently learning **React framework**
 
