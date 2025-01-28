@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **my portfolio**
 
-- 🌱 I’m currently learning **React framework**
+- 🌱 I’m currently learning **SveletKit**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
