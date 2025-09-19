@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Ameya Mhatre</h1>
 <h3 align="center">A passionate FullStack developer from India</h3>
 
-- 🔭 I’m currently working on **my portfolio**
+- 🔭 I’m currently working on **Research Paper for Motorsports**
 
-- 🌱 I’m currently learning **SveletKit**
+- 🌱 I’m currently learning **Machine Learning**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
