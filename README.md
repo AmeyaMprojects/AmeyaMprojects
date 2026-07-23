@@ -1,20 +1,66 @@
 <h1 align="center">Hi 👋, I'm Ameya Mhatre</h1>
-<h3 align="center">A passionate FullStack developer from India</h3>
+<h3 align="center">Building agentic AI systems and quantitative models — from research to production</h3>
 
-- 🔭 I’m currently working on **Research Paper for Motorsports**
-
-- 🌱 I’m currently learning **Machine Learning**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/ameya-mhatre-553003307/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/ameya-mhatre-553003307/" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/https://www.hackerrank.com/profile/ameyam_projects" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/profile/ameyam_projects" height="30" width="40" /></a>
+<p align="center">
+Computer Science (Data Science) @ Manipal Institute of Technology, Bengaluru · ML Intern @ Mastek Ltd. · Chair, IEEE Computational Intelligence Society
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://svelte.dev" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+- 🔭 Currently building **multi-agent LLM systems** (LangChain/LangGraph) in production, including a live ticket-resolution pipeline and an autonomous IPO research tool
+- 📊 Focused on **quantitative/sports analytics** — published research on F1 pit-stop strategy, valuation models for NBA contracts, and ongoing causal-inference work in the WNBA
+- 🌱 Currently deepening my knowledge of **retrieval-augmented generation, agent evaluation, and applied statistics**
+- ✍️ I write about ML/agentic AI on [Substack](https://ameyamhatre.substack.com/) 
+- 💬 Ask me about LangGraph pipelines, financial/sports data modeling, or explainable ML (XAI)
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ameyamprojects&show_icons=true&locale=en" alt="ameyamprojects" /></p>
+---
 
-<!-- <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ameyamprojects&" alt="ameyamprojects" /></p> -->
+### 🚀 Featured Projects
 
+**[Indian IPO Analyzer](https://ipoanalyzer.streamlit.app/)** — Live demo
+A 5-agent LangGraph pipeline (fundamentals, valuation, sentiment, risk, synthesizer) that scrapes live IPO data and generates explained, personalized suitability reports rather than a single buy/avoid verdict. Deterministic financial calculations are unit-tested and kept separate from LLM reasoning, so every number in the report is independently verifiable.
+`Python` `LangGraph` `Gemini` `Streamlit`
+
+**[NBA Contract Analyzer](https://ameyamprojects.github.io/Nba-Contract-Analyzer/)** — Live demo
+An end-to-end pipeline that values NBA contracts against real 2023 CBA mechanics (rookie scale, supermax, Bird rights, luxury-tax apron) and on-court performance, across 101 players and 30 teams — instead of treating salary as one undifferentiated number.
+`Python` `Ridge Regression` `Web Scraping` `Pandas`
+
+**F1 Race Strategy Prediction Model** — Research (submission in progress)
+A stacking ensemble (XGBoost, LightGBM, CatBoost, Transformer) with Inductive Conformal Prediction forecasting Formula 1 pit-stop strategy — F1-score 0.83, ROC-AUC 0.94 — paired with a 3-stage explainability (XAI) pipeline (Permutation Feature Importance, Integrated Gradients, DiCE counterfactuals).
+`Python` `XGBoost` `PyTorch` `SHAP/XAI`
+
+**Production Blog-Writing Agent**
+A 3-node LangGraph pipeline (research → draft → edit) deployed to automate technical content generation end-to-end, built while interning at Mastek.
+`LangChain` `LangGraph`
+
+---
+
+### 🛠️ Languages & Tools
+
+<p align="left">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="sql" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+</p>
+
+**ML / AI:** LangChain · LangGraph · Scikit-learn · XGBoost · LightGBM · PyTorch · Pandas · NumPy · Gemini API
+**Data & Infra:** Azure AI Search · Streamlit · Web Scraping
+**Risk/Compliance (from internship work):** NIST CSF · ISO 27001
+
+---
+
+### 🔗 Connect with me
+
+<p align="left">
+<a href="https://www.linkedin.com/in/ameya-mhatre-553003307/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/profile/ameyam_projects" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" /></a>
+</p>
+
+---
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ameyamprojects&show_icons=true&locale=en&theme=default" alt="ameyamprojects" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ameyamprojects" alt="ameyamprojects streak" /></p>
