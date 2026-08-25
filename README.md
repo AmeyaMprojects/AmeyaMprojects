@@ -1,4 +1,7 @@
+
 # Ameya Mhatre
+
+### [🌐 Visit My Portfolio](https://ameyamhatre.vercel.app/)
 
 Computer Science (Data Science) student building agentic AI systems and quantitative models — from research to production.
 
@@ -32,4 +35,6 @@ Python, JavaScript, SQL, C++ · LangChain, LangGraph, Scikit-learn, XGBoost, PyT
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/ameya-mhatre-553003307/) · [Email](mailto:ameyam.projects@gmail.com)
+### Connect
+
+**[🌐 Portfolio](https://ameyamhatre.vercel.app/)** · [LinkedIn](https://www.linkedin.com/in/ameya-mhatre-553003307/) · [Email](mailto:ameyam.projects@gmail.com)
