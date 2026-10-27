@@ -1,40 +1,92 @@
+<div align="center">
 
 # Ameya Mhatre
 
-### [🌐 Visit My Portfolio](https://ameyamhatre.vercel.app/)
+Computer Science (Data Science) student building backend and distributed systems — payment networks, service-oriented LLM pipelines, and quantitative engines.
 
-Computer Science (Data Science) student building agentic AI systems and quantitative models — from research to production.
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://ameyamhatre.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ameya-mhatre-553003307/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ameyam.projects@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AmeyaMprojects)
 
-Currently building a multi-agent LangGraph pipeline for automated IPO analysis, and an ATR-based quantitative trading screener deployed on AWS. ML Intern at Mastek Ltd.
+</div>
 
----
-
-### Selected work
-
-**[Multi-Market Swing Trading Screener](https://s501e59h91.execute-api.ap-south-1.amazonaws.com)**
-Automated multi-factor quantitative screening engine for cross-market equity analysis. Combines volatility-adjusted pricing, momentum indicators, and a probabilistic scoring matrix to surface mean-reversion and trend-continuation setups, with a dynamic ATR-anchored risk model. FastAPI dashboard and CLI, deployed on AWS.
-Python · FastAPI · AWS
-
-**[Indian IPO Analyzer](https://ipoanalyzer.streamlit.app/)**
-Five-agent LangGraph pipeline that scrapes live IPO data and generates explained, personalized suitability reports. Financial calculations are deterministic and unit-tested, kept separate from LLM reasoning so every number is independently verifiable.
-Python · LangGraph · Gemini · Streamlit
-
-**[NBA Contract Analyzer](https://ameyamprojects.github.io/Nba-Contract-Analyzer/)**
-Values NBA contracts against real 2023 CBA mechanics — rookie scale, supermax, Bird rights, luxury-tax apron — and on-court performance across 101 players and 30 teams, instead of treating salary as one number.
-Python · Ridge Regression · Pandas
-
-**Production Blog-Writing Agent**
-Three-node LangGraph pipeline (research, draft, edit) built during my internship at Mastek to automate technical content generation end-to-end.
-LangChain · LangGraph
+Previously a Software Engineering Intern at Mastek Ltd., where I built evaluation pipelines for a large-scale AI retrieval service and production LLM agent pipelines in LangGraph.
 
 ---
 
-### Stack
+## Stack
 
-Python, JavaScript, SQL, C++ · LangChain, LangGraph, Scikit-learn, XGBoost, PyTorch · AWS, FastAPI, Azure AI Search, Streamlit
+**Languages**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
+
+**Backend & Infra**
+![Microservices](https://img.shields.io/badge/Microservices-555555?style=flat-square)
+![REST APIs](https://img.shields.io/badge/REST_APIs-555555?style=flat-square)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+
+**Data Stores**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+**Cloud & DevOps**
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 ---
 
-### Connect
+## Selected Work
 
-**[🌐 Portfolio](https://ameyamhatre.vercel.app/)** · [LinkedIn](https://www.linkedin.com/in/ameya-mhatre-553003307/) · [Email](mailto:ameyam.projects@gmail.com)
+### CardSwitch
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+Six-service card payments network (gateway, authorization switch, issuer simulator, tokenization vault, ledger, settlement) with BIN-based routing, retries, circuit breaking, and automatic reversals on issuer failure. Idempotent charging over a double-entry PostgreSQL ledger: zero duplicate charges across 500 concurrent retries under chaos testing, and p99 under 550 ms at 100 req/s in k6 load tests. PANs are tokenized with AES-GCM at rest; Kafka-driven settlement batches reconcile against the ledger.
+
+[![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AmeyaMprojects/cardswitch)
+
+### Multi-Market Quantitative Screening Engine
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-555555?style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+
+Modular backend service that decouples data ingestion, computation, and presentation, so each stage scales and configures independently. One core engine is exposed through both a REST API on AWS and a CLI. A rules-and-scoring engine evaluates multi-factor signals against an adaptive, volatility-anchored risk model instead of static thresholds.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00A86B?style=flat-square&logo=amazonaws&logoColor=white)](https://s501e59h91.execute-api.ap-south-1.amazonaws.com)
+
+### NBA Trade Machine
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+Full-stack trade validator and game over a 403-player dataset: a client-side rules engine plus an Express/MongoDB REST API. When the API is down, it falls back to full local play. Validation logic (salary-matching bands, apron restrictions) is written as pure functions shared verbatim between browser and server, giving the business rules a single source of truth.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00A86B?style=flat-square&logo=vercel&logoColor=white)](https://nba-contract-analyzer.vercel.app/game.html)
+
+### Production LLM Agent Pipelines
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+
+Service-oriented LangChain/LangGraph pipelines built at Mastek, including a production three-stage flow (research → draft → edit). Each component is isolated and independently testable.
+
+---
+
